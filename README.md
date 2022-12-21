@@ -45,10 +45,13 @@
 ### 2. System Architecture
 ![](readmeImg/sa.png)
 ### 3. Database
-|Analysis DB|Common DB|
-|---|---|
-|![](readmeImg/dbimg/analysis_db.png)|![](readmeImg/dbimg/common_db.png)|
-|<strong><center>Point DB|<strong><center>Survey DB|
-|![](readmeImg/dbimg/point_db.png)|![](readmeImg/dbimg/survey_db.png)|
-|<strong><center>User DB|
-|![](readmeImg/dbimg/user_db.png)|
+- Analysis DB: 설문 분석 정보 테이블
+![](readmeImg/dbimg/analysis_db.png)
+- Common DB: 플랫폼 기본 정보 테이블
+![](readmeImg/dbimg/common_db.png)
+- Point DB: 사용자 포인트 정보 테이블
+![](readmeImg/dbimg/point_db.png)
+- Survey DB: 설문, 질문, 답변 정보 테이블
+![](readmeImg/dbimg/survey_db.png)
+- User DB: 사용자 정보 테이블
+![](readmeImg/dbimg/user_db.png)
