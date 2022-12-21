@@ -45,7 +45,10 @@
 ### 2. System Architecture
 ![](readmeImg/sa.png)
 ### 3. Database
-|Analysis DB|Common DB|Point DB|Survey DB|User DB|
-|---|---|---|---|---|
-|![](readmeImg/dbimg/analysis_db.png)|![](readmeImg/dbimg/common_db.png)|![](readmeImg/dbimg/point_db.png)|![](readmeImg/dbimg/survey_db.png)|![](readmeImg/dbimg/user_db.png)|
-
+|Analysis DB|Common DB|
+|---|---|
+|![](readmeImg/dbimg/analysis_db.png)|![](readmeImg/dbimg/common_db.png)|
+|<strong><center>Point DB|<strong><center>Survey DB|
+|![](readmeImg/dbimg/point_db.png)|![](readmeImg/dbimg/survey_db.png)|
+|<strong><center>User DB|
+|![](readmeImg/dbimg/user_db.png)|
