@@ -53,5 +53,5 @@
 ![](readmeImg/dbimg/point_db.png)
 - Survey DB: 설문, 질문, 답변 정보 테이블
 ![](readmeImg/dbimg/survey_db.png)
-- User DB: 사용자 정보 테이블
+- User DB: 사용자, 그룹 정보 테이블
 ![](readmeImg/dbimg/user_db.png)
