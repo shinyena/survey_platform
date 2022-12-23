@@ -49,30 +49,30 @@
 |Survey Service|https://github.com/solbiko/survey_platform_backend_survey.git|
 ### 2. System Architecture
 ![](readmeImg/sa.png)
- - Kubernetes Manifest
+- Kubernetes Manifest
   
-    |<center>Service</center>|<center>Url</center>|
-    |---|---|
-    |Eureka Service|https://github.com/OYJ-hansung/eureka-manifest|
-    |Gateway Service|https://github.com/OYJ-hansung/gateway-manifest|
-    |Front Service|https://github.com/OYJ-hansung/front-manifest|
-    |Auth Service|https://github.com/OYJ-hansung/auth-manifest|
-    |Analysis Service|https://github.com/OYJ-hansung/analysis-manifest|
-    |Common Service|https://github.com/OYJ-hansung/common-manifest|
-    |Survey Service|https://github.com/OYJ-hansung/survey-manifest|
+|<center>Service</center>|<center>Url</center>|
+|---|---|
+|Eureka Service|https://github.com/OYJ-hansung/eureka-manifest|
+|Gateway Service|https://github.com/OYJ-hansung/gateway-manifest|
+|Front Service|https://github.com/OYJ-hansung/front-manifest|
+|Auth Service|https://github.com/OYJ-hansung/auth-manifest|
+|Analysis Service|https://github.com/OYJ-hansung/analysis-manifest|
+|Common Service|https://github.com/OYJ-hansung/common-manifest|
+|Survey Service|https://github.com/OYJ-hansung/survey-manifest|
 
 - Docker Image
 
-  |<center>Service</center>|<center>Docker Hub Url</center>|<center>Docker Image</center>|
-  |---|---|---|
-  |Eureka Service|https://hub.docker.com/r/dhdudwn95/eureka|dhdudwn95/eureka:latest
-  |Gateway Service|https://hub.docker.com/r/dhdudwn95/gateway|dhdudwn95/gateway:latest
-  |Front Service|https://hub.docker.com/r/dhdudwn95/front|dhdudwn95/front:latest
-  |Auth Service|https://hub.docker.com/r/dhdudwn95/auth|dhdudwn95/auth:latest
-  |Analysis Service|https://hub.docker.com/r/dhdudwn95/analysis|dhdudwn95/analysis:latest
-  |Common Service|https://hub.docker.com/r/dhdudwn95/common|dhdudwn95/common:latest
-  |Survey Service|https://hub.docker.com/r/dhdudwn95/survey|dhdudwn95/survey:latest
-  |Point Service|https://hub.docker.com/r/dhdudwn95/point|dhdudwn95/point:latest
+|<center>Service</center>|<center>Docker Hub Url</center>|<center>Docker Image</center>|
+|---|---|---|
+|Eureka Service|https://hub.docker.com/r/dhdudwn95/eureka|dhdudwn95/eureka:latest
+|Gateway Service|https://hub.docker.com/r/dhdudwn95/gateway|dhdudwn95/gateway:latest
+|Front Service|https://hub.docker.com/r/dhdudwn95/front|dhdudwn95/front:latest
+|Auth Service|https://hub.docker.com/r/dhdudwn95/auth|dhdudwn95/auth:latest
+|Analysis Service|https://hub.docker.com/r/dhdudwn95/analysis|dhdudwn95/analysis:latest
+|Common Service|https://hub.docker.com/r/dhdudwn95/common|dhdudwn95/common:latest
+|Survey Service|https://hub.docker.com/r/dhdudwn95/survey|dhdudwn95/survey:latest
+|Point Service|https://hub.docker.com/r/dhdudwn95/point|dhdudwn95/point:latest
 
 ### 3. Database
 |||
