@@ -3,6 +3,11 @@
 ### 프로젝트 소개
 - 설문조사 플랫폼: 설문 생성, 복제, 삭제 등 기본적인 설문 제작 서비스
 - 설문 데이터 허브: 포인트 사용을 통한 전체공개 설문 조사 결과 열람 가능
+### 팀원 소개
+- https://github.com/solbiko
+- https://github.com/stella693
+- https://github.com/shinyena
+- https://github.com/OYJ-hansung
 ### 기능 소개
 0. 로그인, 회원가입, 회원정보수정, 회원탈퇴
 1. 설문 생성, 수정, 삭제
@@ -80,3 +85,17 @@
 ![](readmeImg/dbimg/survey_db.png)
 - User DB: 사용자, 그룹 정보 테이블
 ![](readmeImg/dbimg/user_db.png)
+
+### 4. UI
+|||
+|---|---|
+|![img_1.png](readmeImg/uiimg/img_1.png)|![img.png](readmeImg/uiimg/img.png)|
+|로그인 화면|회원가입 화면|
+|![img_2.png](readmeImg/uiimg/img_2.png)|![img_6.png](readmeImg/uiimg/img_6.png)|
+|메인 화면|설문 목록 화면|
+|![img_3.png](readmeImg/uiimg/img_3.png)|![img_4.png](readmeImg/uiimg/img_4.png)
+|설문 생성 화면(기본 정보 작성)|설문 생성 화면(설문 질문 작성)
+|![img_7.png](readmeImg/uiimg/img_7.png)|![img_8.png](readmeImg/uiimg/img_8.png)|
+|그룹 생성 화면|그룹 목록 화면|
+|![img_9.png](readmeImg/uiimg/img_9.png)|![img_10.png](readmeImg/uiimg/img_10.png)|
+|설문 관리 화면(카테고리 관리)|설문 관리 화면(비속어 설문 관리)|
