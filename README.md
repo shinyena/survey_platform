@@ -72,7 +72,7 @@
 
 ### 4. UI
 |||
-|---|---|
+|:---:|:---:|
 |![img_1.png](readmeImg/uiimg/img_1.png)|![img.png](readmeImg/uiimg/img.png)|
 |로그인 화면|회원가입 화면|
 |![img_2.png](readmeImg/uiimg/img_2.png)|![img_6.png](readmeImg/uiimg/img_6.png)|
