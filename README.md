@@ -8,10 +8,10 @@
 1. 설문 생성, 수정, 삭제
 2. 답변 생성, 수정, 삭제
 3. 생성한 설문 및 답변한 설문 조회
-4. 설문 허브 조회 및 구매
-5. 그룹 생성, 수정, 삭제
-6. 그룹 허브 조회 및 참여
-7. 설문 분석
+4. 설문 분석 및 열람
+5. 설문 허브 조회 및 구매
+6. 그룹 생성, 수정, 삭제
+7. 그룹 허브 조회 및 참여 
 8. 관리자 기능
 ### 사용 기술
 - Frontend: 
@@ -32,18 +32,43 @@
 ### 1. MSA
 ![](readmeImg/msa.png)
 
-|Service|Description|
+|<center>Service</center>|<center>Url</center>|
 |---|---|
-|[Eureka Server](https://github.com/solbiko/survey_platform_backend_eurekaserver.git)||
-|[Gateway](https://github.com/solbiko/survey_platform_backend_gateway.git)||
-|[Frontend](https://github.com/solbiko/survey_platform_frontend_react.git)|9|
-|[Auth Service](https://github.com/solbiko/survey_platform_backend_auth.git)|사용자 가입 및 사용자 그룹 서비스|
-|[Analysis Service](https://github.com/OYJ-hansung/survey_platform_backend_analysis.git)|설문 분석 서비스|
-|[Common Service](https://github.com/solbiko/survey_platform_backend_common.git)||
-|[Point Service](https://github.com/stella693/survey_platform_backend_point.git)|사용자 포인트 서비스|
-|[Survey Service](https://github.com/solbiko/survey_platform_backend_survey.git)||
+|Eureka Service|https://github.com/solbiko/survey_platform_backend_eurekaserver.git|
+|Gateway Service|https://github.com/solbiko/survey_platform_backend_gateway.git|
+|Frontend Service|https://github.com/solbiko/survey_platform_frontend_react.git|
+|Auth Service|https://github.com/solbiko/survey_platform_backend_auth.git|
+|Analysis Service|https://github.com/OYJ-hansung/survey_platform_backend_analysis.git|
+|Common Service|https://github.com/solbiko/survey_platform_backend_common.git|
+|Point Service|https://github.com/stella693/survey_platform_backend_point.git|
+|Survey Service|https://github.com/solbiko/survey_platform_backend_survey.git|
 ### 2. System Architecture
 ![](readmeImg/sa.png)
+ - Kubernetes Manifest
+  
+    |<center>Service</center>|<center>Url</center>|
+    |---|---|
+    |Eureka Service|https://github.com/OYJ-hansung/eureka-manifest|
+    |Gateway Service|https://github.com/OYJ-hansung/gateway-manifest|
+    |Front Service|https://github.com/OYJ-hansung/front-manifest|
+    |Auth Service|https://github.com/OYJ-hansung/auth-manifest|
+    |Analysis Service|https://github.com/OYJ-hansung/analysis-manifest|
+    |Common Service|https://github.com/OYJ-hansung/common-manifest|
+    |Survey Service|https://github.com/OYJ-hansung/survey-manifest|
+
+- Docker Image
+
+  |<center>Service</center>|<center>Docker Hub Url</center>|<center>Docker Image</center>|
+      |---|---|---|
+  |Eureka Service|https://hub.docker.com/r/dhdudwn95/eureka|dhdudwn95/eureka:latest
+  |Gateway Service|https://hub.docker.com/r/dhdudwn95/gateway|dhdudwn95/gateway:latest
+  |Front Service|https://hub.docker.com/r/dhdudwn95/front|dhdudwn95/front:latest
+  |Auth Service|https://hub.docker.com/r/dhdudwn95/auth|dhdudwn95/auth:latest
+  |Analysis Service|https://hub.docker.com/r/dhdudwn95/analysis|dhdudwn95/analysis:latest
+  |Common Service|https://hub.docker.com/r/dhdudwn95/common|dhdudwn95/common:latest
+  |Survey Service|https://hub.docker.com/r/dhdudwn95/survey|dhdudwn95/survey:latest
+  |Point Service|https://hub.docker.com/r/dhdudwn95/point|dhdudwn95/point:latest
+
 ### 3. Database
 - Analysis DB: 설문 분석 정보 테이블
 ![](readmeImg/dbimg/analysis_db.png)
