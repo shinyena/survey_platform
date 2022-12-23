@@ -40,7 +40,7 @@
 |[Auth Service](https://github.com/solbiko/survey_platform_backend_auth.git)|사용자 가입 및 사용자 그룹 서비스|
 |[Analysis Service](https://github.com/OYJ-hansung/survey_platform_backend_analysis.git)|설문 분석 서비스|
 |[Common Service](https://github.com/solbiko/survey_platform_backend_common.git)||
-|[Point Service](https://github.com/stella693/survey_platform_backend_point.git)||
+|[Point Service](https://github.com/stella693/survey_platform_backend_point.git)|사용자 포인트 서비스|
 |[Survey Service](https://github.com/solbiko/survey_platform_backend_survey.git)||
 ### 2. System Architecture
 ![](readmeImg/sa.png)
