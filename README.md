@@ -59,16 +59,16 @@
 |Analysis Service|[dhdudwn95/analysis:latest](https://hub.docker.com/r/dhdudwn95/analysis)|https://github.com/OYJ-hansung/analysis-manifest|
 |Common Service|[dhdudwn95/common:latest](https://hub.docker.com/r/dhdudwn95/common)|https://github.com/OYJ-hansung/common-manifest|
 |Survey Service|[dhdudwn95/survey:latest](https://hub.docker.com/r/dhdudwn95/survey)|https://github.com/OYJ-hansung/survey-manifest|
-|Point Service|[dhdudwn95/point:latest](https://hub.docker.com/r/dhdudwn95/point)
+|Point Service|[dhdudwn95/point:latest](https://hub.docker.com/r/dhdudwn95/point)|https://github.com/OYJ-hansung/point-manifest|
 
 ### 3. Database
 |Database|Description|ERD
 |---|---|---|
-|analysis_db|플랫폼 분석 테이블, 설문 분석 테이블|![](readmeImg/dbimg/analysis_db.png)
-|common_db|플랫폼 기본 정보 테이블|![](readmeImg/dbimg/common_db.png)
-|point_db|사용자 포인트 정보 테이블|![](readmeImg/dbimg/point_db.png)
-|survey_db|설문 테이블, 질문 테이블, 답변 테이블|![](readmeImg/dbimg/survey_db.png)
-|user_db|사용자 정보 테이블, 그룹 정보 테이블|![](readmeImg/dbimg/user_db.png)
+|analysis_db|플랫폼 분석 정보 및 설문 분석 정보를 저장하는 데이터베이스|![](readmeImg/dbimg/analysis_db.png)
+|common_db|플랫폼 기본 정보를 저장하는 데이터베이스|![](readmeImg/dbimg/common_db.png)
+|point_db|사용자 포인트 정보를 저장하는 데이터베이스|![](readmeImg/dbimg/point_db.png)
+|survey_db|설문 정보, 질문 정보, 답변 정보를 저장하는 데이터베이스|![](readmeImg/dbimg/survey_db.png)
+|user_db|사용자 정보 및 그룹 정보를 저장하는 데이터베이스|![](readmeImg/dbimg/user_db.png)
 
 ### 4. UI
 |||
