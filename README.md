@@ -36,7 +36,7 @@
 |---|---|
 |[Eureka Server](https://github.com/solbiko/survey_platform_backend_eurekaserver.git)||
 |[Gateway](https://github.com/solbiko/survey_platform_backend_gateway.git)||
-|[Frontend](https://github.com/solbiko/survey_platform_frontend_react.git)||
+|[Frontend](https://github.com/solbiko/survey_platform_frontend_react.git)|9|
 |[Auth Service](https://github.com/solbiko/survey_platform_backend_auth.git)|사용자 가입 및 사용자 그룹 서비스|
 |[Analysis Service](https://github.com/OYJ-hansung/survey_platform_backend_analysis.git)|설문 분석 서비스|
 |[Common Service](https://github.com/solbiko/survey_platform_backend_common.git)||
