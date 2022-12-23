@@ -49,30 +49,17 @@
 |Survey Service|https://github.com/solbiko/survey_platform_backend_survey.git|
 ### 2. System Architecture
 ![](readmeImg/sa.png)
-- Kubernetes Manifest
-  
-|<center>Service</center>|<center>Url</center>|
-|---|---|
-|Eureka Service|https://github.com/OYJ-hansung/eureka-manifest|
-|Gateway Service|https://github.com/OYJ-hansung/gateway-manifest|
-|Front Service|https://github.com/OYJ-hansung/front-manifest|
-|Auth Service|https://github.com/OYJ-hansung/auth-manifest|
-|Analysis Service|https://github.com/OYJ-hansung/analysis-manifest|
-|Common Service|https://github.com/OYJ-hansung/common-manifest|
-|Survey Service|https://github.com/OYJ-hansung/survey-manifest|
 
-- Docker Image
-
-|<center>Service</center>|<center>Docker Hub Url</center>|<center>Docker Image</center>|
+|<center>Service</center>|<center>Docker Image</center>|<center>Kubernetes Manifest</center>
 |---|---|---|
-|Eureka Service|https://hub.docker.com/r/dhdudwn95/eureka|dhdudwn95/eureka:latest
-|Gateway Service|https://hub.docker.com/r/dhdudwn95/gateway|dhdudwn95/gateway:latest
-|Front Service|https://hub.docker.com/r/dhdudwn95/front|dhdudwn95/front:latest
-|Auth Service|https://hub.docker.com/r/dhdudwn95/auth|dhdudwn95/auth:latest
-|Analysis Service|https://hub.docker.com/r/dhdudwn95/analysis|dhdudwn95/analysis:latest
-|Common Service|https://hub.docker.com/r/dhdudwn95/common|dhdudwn95/common:latest
-|Survey Service|https://hub.docker.com/r/dhdudwn95/survey|dhdudwn95/survey:latest
-|Point Service|https://hub.docker.com/r/dhdudwn95/point|dhdudwn95/point:latest
+|Eureka Service|[dhdudwn95/eureka:latest](https://hub.docker.com/r/dhdudwn95/eureka)|https://github.com/OYJ-hansung/eureka-manifest|
+|Gateway Service|[dhdudwn95/gateway:latest](https://hub.docker.com/r/dhdudwn95/gateway)|https://github.com/OYJ-hansung/gateway-manifest|
+|Front Service|[dhdudwn95/front:latest](https://hub.docker.com/r/dhdudwn95/front)|https://github.com/OYJ-hansung/front-manifest|
+|Auth Service|[dhdudwn95/auth:latest](https://hub.docker.com/r/dhdudwn95/auth)|https://github.com/OYJ-hansung/auth-manifest|
+|Analysis Service|[dhdudwn95/analysis:latest](https://hub.docker.com/r/dhdudwn95/analysis)|https://github.com/OYJ-hansung/analysis-manifest|
+|Common Service|[dhdudwn95/common:latest](https://hub.docker.com/r/dhdudwn95/common)|https://github.com/OYJ-hansung/common-manifest|
+|Survey Service|[dhdudwn95/survey:latest](https://hub.docker.com/r/dhdudwn95/survey)|https://github.com/OYJ-hansung/survey-manifest|
+|Point Service|[dhdudwn95/point:latest](https://hub.docker.com/r/dhdudwn95/point)
 
 ### 3. Database
 |||
