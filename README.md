@@ -64,11 +64,11 @@
 ### 3. Database
 |Database|Description|ERD
 |---|---|---|
-|analysis_db|설문 분석 정보 테이블|![](readmeImg/dbimg/analysis_db.png)
+|analysis_db|플랫폼 분석 테이블, 설문 분석 테이블|![](readmeImg/dbimg/analysis_db.png)
 |common_db|플랫폼 기본 정보 테이블|![](readmeImg/dbimg/common_db.png)
 |point_db|사용자 포인트 정보 테이블|![](readmeImg/dbimg/point_db.png)
-|survey_db|설문, 질문, 답변 정보 테이블|![](readmeImg/dbimg/survey_db.png)
-|user_db|사용자, 그룹 정보 테이블|![](readmeImg/dbimg/user_db.png)
+|survey_db|설문 테이블, 질문 테이블, 답변 테이블|![](readmeImg/dbimg/survey_db.png)
+|user_db|사용자 정보 테이블, 그룹 정보 테이블|![](readmeImg/dbimg/user_db.png)
 
 ### 4. UI
 |||
