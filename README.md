@@ -39,14 +39,14 @@
 
 |<center>Service</center>|<center>Url</center>|
 |---|---|
-|Eureka Service|https://github.com/solbiko/survey_platform_backend_eurekaserver.git|
-|Gateway Service|https://github.com/solbiko/survey_platform_backend_gateway.git|
-|Frontend Service|https://github.com/solbiko/survey_platform_frontend_react.git|
-|Auth Service|https://github.com/solbiko/survey_platform_backend_auth.git|
-|Analysis Service|https://github.com/OYJ-hansung/survey_platform_backend_analysis.git|
-|Common Service|https://github.com/solbiko/survey_platform_backend_common.git|
-|Point Service|https://github.com/stella693/survey_platform_backend_point.git|
-|Survey Service|https://github.com/solbiko/survey_platform_backend_survey.git|
+|Eureka Service|https://github.com/shinyena/survey_platform_backend_eurekaserver.git|
+|Gateway Service|https://github.com/shinyena/survey_platform_backend_gateway.git|
+|Frontend Service|https://github.com/shinyena/survey_platform_frontend_react.git|
+|Auth Service|https://github.com/shinyena/survey_platform_backend_auth.git|
+|Analysis Service|https://github.com/shinyena/survey_platform_backend_analysis.git|
+|Common Service|https://github.com/shinyena/survey_platform_backend_common.git|
+|Point Service|https://github.com/shinyena/survey_platform_backend_point.git|
+|Survey Service|https://github.com/shinyena/survey_platform_backend_survey.git|
 ### 2. System Architecture
 ![](readmeImg/sa.png)
 
